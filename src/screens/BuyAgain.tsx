@@ -10,7 +10,7 @@ import {
 import TotalAmountWidget from '../components/TotalAmountwidget';
 import Packs from '../components/Packs';
 
-const BuyAgain = () => {
+const BuyAgain: React.FC = () => {
   const [selectedPack, setSelectedPack] = useState(null); // State to store selected pack
   const [selectedProducts, setSelectedProducts] = useState([]); // State to store selected products
 
